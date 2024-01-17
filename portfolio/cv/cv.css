@@ -157,6 +157,7 @@
 
   .skills li {
     margin-left: 15px;
+    font-family: 'Roboto', 'sans-serif';
   }
 
   .section-six-cv {
@@ -188,6 +189,7 @@
 
   .soft-skills li {
     margin-left: 15px;
+    font-family: 'Roboto', 'sans-serif';
   }
 
   /* Mobile Styles */
