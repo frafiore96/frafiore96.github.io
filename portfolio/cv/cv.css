@@ -171,6 +171,7 @@
     border-radius: 3px;
     order: 6;
     text-align:left;
+    margin-bottom:50px;
   }
 
   .soft-skills {
@@ -188,6 +189,10 @@
 
   .soft-skills li {
     margin-left: 15px;
+  }
+
+  footer {
+    margin-top: 0 px;
   }
 
   /* Mobile Styles */
