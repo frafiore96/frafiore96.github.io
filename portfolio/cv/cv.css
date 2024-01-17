@@ -1,0 +1,917 @@
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  flex-wrap: wrap;
+  background-color: #eee7e7;
+}
+
+.section-one-cv {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 64px 16px;
+    margin: 0 auto;
+    width:750px;
+    margin-top: 20px;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    order:1;
+  }
+
+  .cv-photo img {
+    display:flex;
+    align-items:center;
+    border: 3px solid #559891;
+    border-radius: 150px;
+    width: 200px;
+  }
+
+  .info-cv {
+    display:flex;
+    flex-direction: column;
+  }
+
+  .info-cv h1 {
+    margin-top: -20px;
+    font-size: 43px;
+    line-height:80px;
+  }
+
+  .info-cv li {
+    font-size: 16px;
+    list-style-type: none;
+    line-height: 20px;
+  }
+
+  .section-two-cv {
+    display:flex;
+    flex-direction: row;
+    padding: 64px 16px;
+    margin: 0 auto;
+    width:750px;
+    margin-top: 20px;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    order:2;
+    text-align:left;
+  }
+
+  .job-experience {
+    margin-top: -40px;
+    margin-left: 25px;
+  }
+
+
+  .job-experience h2 {
+    margin-top:-20px;
+    font-size: 30px;
+    text-decoration:underline;
+    line-height: 100px;
+  }
+
+  .section-three-cv {
+    display:flex;
+    flex-direction: row;
+    padding: 64px 16px;
+    margin: 0 auto;
+    width:750px;
+    margin-top: 20px;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    order: 3;
+    text-align:left;
+  }
+
+  .edu {
+    margin-top: -40px;
+    margin-left: 25px;
+  }
+
+
+  .edu h2 {
+    margin-top:-20px;
+    font-size: 30px;
+    text-decoration: underline;
+    line-height: 100px;
+  }
+
+  .section-four-cv {
+    display:flex;
+    flex-direction: row;
+    padding: 64px 16px;
+    margin: 0 auto;
+    width:750px;
+    margin-top: 20px;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    order: 4;
+    text-align:left;
+  }
+
+  .lang {
+    margin-top: -40px;
+    margin-left: 25px;
+  }
+
+
+  .lang h2 {
+    margin-top:-20px;
+    font-size: 30px;
+    text-decoration: underline;
+    line-height: 100px;
+  }
+
+  .section-five-cv {
+    display:flex;
+    flex-direction: row;
+    padding: 64px 16px;
+    margin: 0 auto;
+    width:750px;
+    margin-top: 20px;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    order: 5;
+    text-align:left;
+  }
+
+  .skills {
+    margin-top: -40px;
+    margin-left: 25px;
+  }
+
+
+  .skills h2 {
+    margin-top:-20px;
+    font-size: 30px;
+    text-decoration: underline;
+    line-height: 100px;
+  }
+
+  .skills li {
+    margin-left: 15px;
+  }
+
+  .section-six-cv {
+    display:flex;
+    flex-direction: row;
+    padding: 64px 16px;
+    margin: 0 auto;
+    width:750px;
+    margin-top: 20px;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    order: 6;
+    text-align:left;
+  }
+
+  .soft-skills {
+    margin-top: -40px;
+    margin-left: 25px;
+  }
+
+
+  .soft-skills h2 {
+    margin-top:-20px;
+    font-size: 30px;
+    text-decoration: underline;
+    line-height: 100px;
+  }
+
+  .soft-skills li {
+    margin-left: 15px;
+  }
+
+  /* Mobile Styles */
+  @media only screen and (max-width:450px) {
+    body {
+        font-size: 12px;
+    }
+
+    .section-one-cv {
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .info-cv {
+        margin-top: 20px;
+        justify-content:center;
+        align-items:center;
+      }
+    
+    .info-cv h1 {
+        margin-top: 5px;
+        font-size: 20px;
+        line-height: 40px;
+      }
+    
+    .info-cv li {
+        font-size: 15px;
+        list-style-type: none;
+        line-height: 20px;
+        text-align: center;
+      }
+
+    .section-two-cv {
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .job-experience {
+        margin-top: -5px;
+        justify-content:center;
+        align-items:center;
+      }
+    
+    .job-experience h2 {
+        margin-top: 5px;
+        font-size: 20px;
+        line-height: 40px;
+      }
+
+    .section-three-cv {
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .edu {
+        margin-top: -5px;
+        justify-content:center;
+        align-items:center;
+      }
+    
+    .edu h2 {
+        margin-top: 5px;
+        font-size: 20px;
+        line-height: 40px;
+      }
+
+    .section-four-cv {
+      flex-direction:column;
+      width: 100%;
+      min-width:375px;
+    }
+
+    .lang {
+        margin-top: -5px;
+      }
+    
+    .lang h2 {
+        margin-top: 5px;
+        font-size: 20px;
+        line-height: 30px;
+      }
+
+    .lang p {
+      font-size: 15px;
+    }
+
+    .section-five-cv {
+        flex-direction:column;
+        width: 100%;
+        min-width:375px;
+    }
+
+    .skills {
+      margin-top: -5px;
+
+    }
+  
+  .skills h2 {
+      margin-top: 5px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+  .skills li {
+    font-size: 15px;
+  }
+
+    .section-six-cv {
+        flex-direction:column;
+        width: 100%;
+        min-width:375px;
+    }
+
+    .soft-skills {
+      margin-top: -5px;
+      justify-content:center;
+      align-items:center;
+    }
+  
+  .soft-skills h2 {
+      margin-top: 5px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+  .soft-skills li {
+    font-size: 15px;
+  }
+
+  }
+
+  /* Tablet Styles */
+  @media only screen and (min-width:451px) and (max-width:736px) {
+    body {
+      font-size: 14px;
+    }
+
+    .section-one-cv {
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width:90%;
+        min-width: 401px;
+        
+    }
+
+    .info-cv {
+        margin-top: 20px;
+        justify-content:center;
+        align-items:center;
+      }
+    
+    .info-cv h1 {
+        margin-top: 5px;
+        font-size: 20px;
+        line-height: 40px;
+      }
+    
+    .info-cv li {
+        font-size: 15px;
+        list-style-type: none;
+        line-height: 20px;
+        text-align: center;
+      }
+
+    .section-two-cv {
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 401px;
+    }
+
+    .job-experience {
+        margin-top: -5px;
+        justify-content:center;
+        align-items:center;
+      }
+    
+    .job-experience h2 {
+        margin-top: 5px;
+        font-size: 20px;
+        line-height: 40px;
+      }
+
+    .section-three-cv {
+        flex-direction:column;
+        width: 401px;
+    }
+
+    .edu {
+        margin-top: -5px;
+
+      }
+    
+    .edu h2 {
+        margin-top: 5px;
+        font-size: 20px;
+        line-height: 40px;
+      }
+
+    .section-four-cv {
+      flex-direction:column;
+      width:401px;
+    }
+
+    .lang {
+        margin-top: -5px;
+      }
+    
+    .lang h2 {
+        margin-top: 5px;
+        font-size: 20px;
+        line-height: 30px;
+      }
+
+    .lang p {
+      font-size: 15px;
+    }
+
+    .section-five-cv {
+
+        width:90%;
+        min-width: 401px;
+    }
+
+    .skills {
+      margin-top: -5px;
+    }
+  
+  .skills h2 {
+      margin-top: 5px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+  .skills li {
+    font-size: 15px;
+  }
+
+    .section-six-cv {
+        flex-direction:column;
+
+       width:90%;
+        min-width: 401px;
+    }
+
+    .soft-skills {
+      margin-top: -5px;
+
+    }
+  
+  .soft-skills h2 {
+      margin-top: 5px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+  .soft-skills li {
+    font-size: 15px;
+  }
+
+  }
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  flex-wrap: wrap;
+  background-color: #eee7e7;
+}
+
+.section-one-cv {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 64px 16px;
+    margin: 0 auto;
+    width:750px;
+    margin-top: 20px;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    order:1;
+  }
+
+  .cv-photo img {
+    display:flex;
+    align-items:center;
+    border: 3px solid #559891;
+    border-radius: 150px;
+    width: 200px;
+  }
+
+  .info-cv {
+    display:flex;
+    flex-direction: column;
+  }
+
+  .info-cv h1 {
+    margin-top: -20px;
+    font-size: 43px;
+    line-height:80px;
+  }
+
+  .info-cv li {
+    font-size: 16px;
+    list-style-type: none;
+    line-height: 20px;
+  }
+
+  .section-two-cv {
+    display:flex;
+    flex-direction: row;
+    padding: 64px 16px;
+    margin: 0 auto;
+    width:750px;
+    margin-top: 20px;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    order:2;
+    text-align:left;
+  }
+
+  .job-experience {
+    margin-top: -40px;
+    margin-left: 25px;
+  }
+
+
+  .job-experience h2 {
+    margin-top:-20px;
+    font-size: 30px;
+    text-decoration:underline;
+    line-height: 100px;
+  }
+
+  .section-three-cv {
+    display:flex;
+    flex-direction: row;
+    padding: 64px 16px;
+    margin: 0 auto;
+    width:750px;
+    margin-top: 20px;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    order: 3;
+    text-align:left;
+  }
+
+  .edu {
+    margin-top: -40px;
+    margin-left: 25px;
+  }
+
+
+  .edu h2 {
+    margin-top:-20px;
+    font-size: 30px;
+    text-decoration: underline;
+    line-height: 100px;
+  }
+
+  .section-four-cv {
+    display:flex;
+    flex-direction: row;
+    padding: 64px 16px;
+    margin: 0 auto;
+    width:750px;
+    margin-top: 20px;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    order: 4;
+    text-align:left;
+  }
+
+  .lang {
+    margin-top: -40px;
+    margin-left: 25px;
+  }
+
+
+  .lang h2 {
+    margin-top:-20px;
+    font-size: 30px;
+    text-decoration: underline;
+    line-height: 100px;
+  }
+
+  .section-five-cv {
+    display:flex;
+    flex-direction: row;
+    padding: 64px 16px;
+    margin: 0 auto;
+    width:750px;
+    margin-top: 20px;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    order: 5;
+    text-align:left;
+  }
+
+  .skills {
+    margin-top: -40px;
+    margin-left: 25px;
+  }
+
+
+  .skills h2 {
+    margin-top:-20px;
+    font-size: 30px;
+    text-decoration: underline;
+    line-height: 100px;
+  }
+
+  .skills li {
+    margin-left: 15px;
+  }
+
+  .section-six-cv {
+    display:flex;
+    flex-direction: row;
+    padding: 64px 16px;
+    margin: 0 auto;
+    width:750px;
+    margin-top: 20px;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    order: 6;
+    text-align:left;
+  }
+
+  .soft-skills {
+    margin-top: -40px;
+    margin-left: 25px;
+  }
+
+
+  .soft-skills h2 {
+    margin-top:-20px;
+    font-size: 30px;
+    text-decoration: underline;
+    line-height: 100px;
+  }
+
+  .soft-skills li {
+    margin-left: 15px;
+  }
+
+  /* Mobile Styles */
+  @media only screen and (max-width:450px) {
+    body {
+        font-size: 12px;
+    }
+
+    .section-one-cv {
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .info-cv {
+        margin-top: 20px;
+        justify-content:center;
+        align-items:center;
+      }
+    
+    .info-cv h1 {
+        margin-top: 5px;
+        font-size: 20px;
+        line-height: 40px;
+      }
+    
+    .info-cv li {
+        font-size: 15px;
+        list-style-type: none;
+        line-height: 20px;
+        text-align: center;
+      }
+
+    .section-two-cv {
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .job-experience {
+        margin-top: -5px;
+        justify-content:center;
+        align-items:center;
+      }
+    
+    .job-experience h2 {
+        margin-top: 5px;
+        font-size: 20px;
+        line-height: 40px;
+      }
+
+    .section-three-cv {
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .edu {
+        margin-top: -5px;
+        justify-content:center;
+        align-items:center;
+      }
+    
+    .edu h2 {
+        margin-top: 5px;
+        font-size: 20px;
+        line-height: 40px;
+      }
+
+    .section-four-cv {
+      flex-direction:column;
+      width: 100%;
+      min-width:375px;
+    }
+
+    .lang {
+        margin-top: -5px;
+      }
+    
+    .lang h2 {
+        margin-top: 5px;
+        font-size: 20px;
+        line-height: 30px;
+      }
+
+    .lang p {
+      font-size: 15px;
+    }
+
+    .section-five-cv {
+        flex-direction:column;
+        width: 100%;
+        min-width:375px;
+    }
+
+    .skills {
+      margin-top: -5px;
+
+    }
+  
+  .skills h2 {
+      margin-top: 5px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+  .skills li {
+    font-size: 15px;
+  }
+
+    .section-six-cv {
+        flex-direction:column;
+        width: 100%;
+        min-width:375px;
+    }
+
+    .soft-skills {
+      margin-top: -5px;
+      justify-content:center;
+      align-items:center;
+    }
+  
+  .soft-skills h2 {
+      margin-top: 5px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+  .soft-skills li {
+    font-size: 15px;
+  }
+
+  }
+
+  /* Tablet Styles */
+  @media only screen and (min-width:451px) and (max-width:736px) {
+    body {
+      font-size: 14px;
+    }
+
+    .section-one-cv {
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width:90%;
+        min-width: 401px;
+        
+    }
+
+    .info-cv {
+        margin-top: 20px;
+        justify-content:center;
+        align-items:center;
+      }
+    
+    .info-cv h1 {
+        margin-top: 5px;
+        font-size: 20px;
+        line-height: 40px;
+      }
+    
+    .info-cv li {
+        font-size: 15px;
+        list-style-type: none;
+        line-height: 20px;
+        text-align: center;
+      }
+
+    .section-two-cv {
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 401px;
+    }
+
+    .job-experience {
+        margin-top: -5px;
+        justify-content:center;
+        align-items:center;
+      }
+    
+    .job-experience h2 {
+        margin-top: 5px;
+        font-size: 20px;
+        line-height: 40px;
+      }
+
+    .section-three-cv {
+        flex-direction:column;
+        width: 401px;
+    }
+
+    .edu {
+        margin-top: -5px;
+
+      }
+    
+    .edu h2 {
+        margin-top: 5px;
+        font-size: 20px;
+        line-height: 40px;
+      }
+
+    .section-four-cv {
+      flex-direction:column;
+      width:401px;
+    }
+
+    .lang {
+        margin-top: -5px;
+      }
+    
+    .lang h2 {
+        margin-top: 5px;
+        font-size: 20px;
+        line-height: 30px;
+      }
+
+    .lang p {
+      font-size: 15px;
+    }
+
+    .section-five-cv {
+
+        width:90%;
+        min-width: 401px;
+    }
+
+    .skills {
+      margin-top: -5px;
+    }
+  
+  .skills h2 {
+      margin-top: 5px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+  .skills li {
+    font-size: 15px;
+  }
+
+    .section-six-cv {
+        flex-direction:column;
+
+       width:90%;
+        min-width: 401px;
+    }
+
+    .soft-skills {
+      margin-top: -5px;
+
+    }
+  
+  .soft-skills h2 {
+      margin-top: 5px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+  .soft-skills li {
+    font-size: 15px;
+  }
+
+  }
+

@@ -1,0 +1,119 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  flex-wrap: wrap;
+  background-color: #eee7e7;
+}
+
+.section-one-works {
+    padding: 64px 16px;
+    margin: 0 auto;
+    width: 750px;
+    margin-top: 20px;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    order: 1;
+  }
+  
+  .error {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .error-text {
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    line-height: 35px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top:20px;
+  }
+
+  .error img {
+    width: 100px;
+  }
+
+  .section-two-works {
+    padding: 64px 16px;
+    margin: 0 auto;
+    width:750px;
+    margin-top: 20px;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    order: 2;
+  }
+
+
+  .works-text  {
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    font-weight:bold;
+    line-height: 25px;
+    font-size: 20px;
+    margin-top:-30px;
+    margin-bottom:-30px;
+  }
+
+  .works-text a:link,
+  .works-text a:visited {
+    color: #5D6063;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .works-text a:hover,
+  .works-text a:visited:hover,
+  .works-text a:active,
+  .works-text a:visited:active{
+    color: #54A5C4;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  /* Mobile Styles */
+@media only screen and (max-width:450px) {
+    body {
+        font-size:12px;
+    }
+
+    .section-one-works {
+      width: 90%;
+    }
+
+    .error-text {
+        font-size: 25px;
+    }
+
+    .section-two-works {
+        width: 90%;
+    }
+
+    .works-text {
+        font-size: 18px;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width:451px) and (max-width:736px) {
+    body {
+        font-size:14px;
+    }
+
+    .section-one-works {
+      width: 90%;
+      max-width: 750px;
+    }
+    
+    .section-two-works {
+        width: 90%;
+        max-width:750px;
+    }
+
+}
