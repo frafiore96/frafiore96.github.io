@@ -7,10 +7,10 @@ Il sito si compone di 3 sezioni principali:
 - CV che rimanda al mio curriculum vitae.
 Il sito presenta in ogni pagina il logo, un menu di navigazione ed i canali social, fondamentali in un’ottica di crescita e visibilità.
 
-Sono presenti 4 file .html all’interno del progetto: index.html ed il suo gemello nella cartella home, il file html per la pagina works e quello per il CV.
-Tutti presentano la stessa struttura composta dallo stesso <head>, mentre nel <body> troviamo un <header> con al suo interno il <div> nav in cui ho inserito logo, home, works, cv e canali social.
-All’interno del <div> page abbiamo varie <section> con lo scopo di separare contenuti diversi all’interno della stessa pagina es. nel main index (home) troviamo 4 <section>: bio, carosello works, carosello cv e il <form>.
-Ai piedi del sito il <footer> con al suo interno il nome del progettista con annessa funzione.
+Sono presenti 4 file .html all’interno del progetto: index.html ed il suo gemello nella cartella home, il file .html per la pagina works e quello per il CV.
+Tutti presentano la stessa struttura composta dallo stesso "head", mentre nel "body" troviamo un "header" con al suo interno il div "nav" in cui ho inserito logo, home, works, cv e canali social.
+All’interno del div "page" abbiamo varie <section> con lo scopo di separare contenuti diversi all’interno della stessa pagina es. nel main index (home) troviamo 4 "section": bio, carosello works, carosello cv e il "form".
+Ai piedi del sito il "footer" con al suo interno il nome del progettista con annessa funzione.
 Non ho inserito volutamente altre info quali email, numero di telefono e link social perchè presenti in altre parti del sito col rischio di sembrare rindondante.
 Ho cercato di ottimizzare la SEO tramite l’utilizzo di tag corretti come gli “Open Graph”.
 
