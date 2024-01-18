@@ -1,12 +1,3 @@
-.page {
-  display: flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  flex-wrap: wrap;
-  background-color: #eee7e7;
-}
-
 .section-one-works {
     padding: 64px 16px;
     margin: 0 auto;
