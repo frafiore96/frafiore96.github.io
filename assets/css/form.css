@@ -36,6 +36,7 @@
     margin-top:30px;
     width: 750px;
     padding: 50px;
+   
   }
 
   .form-row {
@@ -141,7 +142,7 @@
   }
 
 /* Mobile styles */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     body {
     font-size: 12px;
     } 
@@ -152,6 +153,7 @@
   
     .speaker-form {
       width: 90%;
+      padding-bottom:20px;
     }
     
     .legacy-form-row input[type='radio'] {
@@ -161,7 +163,7 @@
     }
 
 /* Tablet styles */
-@media only screen and (min-width:401px) and (max-width:749px) {
+@media only screen and (min-width:451px) and (max-width:961px) {
     body {
       font-size:14px;
     }

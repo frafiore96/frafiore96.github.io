@@ -1,6 +1,6 @@
 .page {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content:center;
   align-items:center;
   flex-wrap: wrap;
@@ -101,7 +101,7 @@
 }
 
 /* Tablet Styles */
-@media only screen and (min-width:451px) and (max-width:736px) {
+@media only screen and (min-width:451px) and (max-width:961px) {
     body {
         font-size:14px;
     }

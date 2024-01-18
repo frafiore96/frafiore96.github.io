@@ -1,6 +1,7 @@
+
 .page {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content:center;
   align-items:center;
   flex-wrap: wrap;
@@ -190,6 +191,10 @@
     margin-left: 15px;
   }
 
+  footer {
+    margin-top:0px;
+  }
+
   /* Mobile Styles */
   @media only screen and (max-width:450px) {
     body {
@@ -326,7 +331,7 @@
   }
 
   /* Tablet Styles */
-  @media only screen and (min-width:451px) and (max-width:736px) {
+  @media only screen and (min-width:451px) and (max-width:961px) {
     body {
       font-size: 14px;
     }
@@ -454,5 +459,5 @@
   .soft-skills li {
     font-size: 15px;
   }
-  }
 
+  }

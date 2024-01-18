@@ -229,7 +229,7 @@
       }
 
     /* Tablet styles */
-    @media only screen and (min-width:451px) and (max-width:736px) {
+    @media only screen and (min-width:451px) and (max-width:961px) {
       body {
         font-size:14px;
       }
