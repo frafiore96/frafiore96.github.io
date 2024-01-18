@@ -1,3 +1,12 @@
+.page {
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  flex-wrap: wrap;
+  background-color: #eee7e7;
+}
+
 .section-one-cv {
     display:flex;
     flex-direction: row;
