@@ -179,6 +179,10 @@
       font-size: 12px;
       }
 
+      * {
+      max-width:100%;
+      }
+
       .section-one {
         width: 90%;
       }
