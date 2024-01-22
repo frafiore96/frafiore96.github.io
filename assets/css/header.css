@@ -101,13 +101,19 @@
       font-size: 12px;
       }
 
-     .logo {
-      flex:1;
-      }
+        .logo {
+         flex:1;
+        }
 
-      .fb-icon {
-        margin-left: 15px;
-      }
+        .nav-bar {
+          flex-direction: column;
+          flex:2;
+        }
+
+
+        .social-icon {
+        flex:1;
+        }
 
         
       .nav-bar {
