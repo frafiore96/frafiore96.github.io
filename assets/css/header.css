@@ -116,7 +116,7 @@
         }
 
         .logo img {
-        width: 150px;
+        min-width: 150px;
     }
 
       }
