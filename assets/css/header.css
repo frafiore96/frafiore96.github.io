@@ -123,7 +123,17 @@
           font-size:14px;
         }
           
+        .logo {
+         flex:1;
+        }
+
         .nav-bar {
           flex-direction: column;
+          flex:2;
+        }
+
+
+        .social-icon {
+        flex:1;
         }
       }
