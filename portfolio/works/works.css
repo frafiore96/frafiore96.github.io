@@ -114,6 +114,8 @@
     .section-two-works {
         width: 90%;
         max-width:750px;
+        margin-bottom:200px;
+      
     }
 
 }
