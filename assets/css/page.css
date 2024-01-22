@@ -238,6 +238,10 @@
         font-size:14px;
       }
 
+      * {
+      max-width:100%;
+      }
+      
       .section-one {
         width: 90%;
         max-width: 750px;
