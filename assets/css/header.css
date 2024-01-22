@@ -118,6 +118,17 @@
         .logo img {
         min-width: 150px;
     }
+        .fb-icon img {
+     min-width: 30px;
+    }
+
+    .ig-icon img{
+      min-width: 30px;
+    }
+
+    .in-icon img {
+      min-width: 26px;
+    }
 
       }
 
