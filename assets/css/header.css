@@ -115,11 +115,9 @@
         flex:1;
         }
 
-        
-      .nav-bar {
-
-        flex-direction: column;
-      }
+        .logo img {
+        width: 150px;
+    }
 
       }
 
