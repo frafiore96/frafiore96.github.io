@@ -104,6 +104,10 @@
      .logo {
       flex:1;
       }
+        
+     .fb-icon {
+      margin-left:-5px;
+    }
 
       .nav-bar {
 
